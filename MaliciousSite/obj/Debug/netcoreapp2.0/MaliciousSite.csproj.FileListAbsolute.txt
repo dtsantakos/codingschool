@@ -10,3 +10,15 @@ C:\Users\dtsantakos\Documents\Visual Studio 2017\Projects\CodingSchoolPresentati
 C:\Users\dtsantakos\Documents\Visual Studio 2017\Projects\CodingSchoolPresentation\MaliciousSite\obj\Debug\netcoreapp2.0\MaliciousSite.dll
 C:\Users\dtsantakos\Documents\Visual Studio 2017\Projects\CodingSchoolPresentation\MaliciousSite\obj\Debug\netcoreapp2.0\MaliciousSite.pdb
 C:\Users\dtsantakos\Documents\Visual Studio 2017\Projects\CodingSchoolPresentation\MaliciousSite\obj\Debug\netcoreapp2.0\MaliciousSite.csprojResolveAssemblyReference.cache
+C:\Users\dtsantakos\Desktop\gitfix\codingschool\MaliciousSite\bin\Debug\netcoreapp2.0\MaliciousSite.deps.json
+C:\Users\dtsantakos\Desktop\gitfix\codingschool\MaliciousSite\bin\Debug\netcoreapp2.0\MaliciousSite.runtimeconfig.json
+C:\Users\dtsantakos\Desktop\gitfix\codingschool\MaliciousSite\bin\Debug\netcoreapp2.0\MaliciousSite.runtimeconfig.dev.json
+C:\Users\dtsantakos\Desktop\gitfix\codingschool\MaliciousSite\bin\Debug\netcoreapp2.0\MaliciousSite.dll
+C:\Users\dtsantakos\Desktop\gitfix\codingschool\MaliciousSite\bin\Debug\netcoreapp2.0\MaliciousSite.pdb
+C:\Users\dtsantakos\Desktop\gitfix\codingschool\MaliciousSite\obj\Debug\netcoreapp2.0\MaliciousSite.csprojResolveAssemblyReference.cache
+C:\Users\dtsantakos\Desktop\gitfix\codingschool\MaliciousSite\obj\Debug\netcoreapp2.0\MaliciousSite.csproj.CoreCompileInputs.cache
+C:\Users\dtsantakos\Desktop\gitfix\codingschool\MaliciousSite\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\dtsantakos\Desktop\gitfix\codingschool\MaliciousSite\obj\Debug\netcoreapp2.0\MaliciousSite.AssemblyInfoInputs.cache
+C:\Users\dtsantakos\Desktop\gitfix\codingschool\MaliciousSite\obj\Debug\netcoreapp2.0\MaliciousSite.AssemblyInfo.cs
+C:\Users\dtsantakos\Desktop\gitfix\codingschool\MaliciousSite\obj\Debug\netcoreapp2.0\MaliciousSite.dll
+C:\Users\dtsantakos\Desktop\gitfix\codingschool\MaliciousSite\obj\Debug\netcoreapp2.0\MaliciousSite.pdb

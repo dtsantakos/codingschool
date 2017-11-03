@@ -13125,11 +13125,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\dtsantakos\\Documents\\Visual Studio 2017\\Projects\\CodingSchoolPresentation\\MaliciousSite\\MaliciousSite.csproj",
+      "projectUniqueName": "C:\\Users\\dtsantakos\\Desktop\\gitfix\\codingschool\\MaliciousSite\\MaliciousSite.csproj",
       "projectName": "MaliciousSite",
-      "projectPath": "C:\\Users\\dtsantakos\\Documents\\Visual Studio 2017\\Projects\\CodingSchoolPresentation\\MaliciousSite\\MaliciousSite.csproj",
+      "projectPath": "C:\\Users\\dtsantakos\\Desktop\\gitfix\\codingschool\\MaliciousSite\\MaliciousSite.csproj",
       "packagesPath": "C:\\Users\\dtsantakos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dtsantakos\\Documents\\Visual Studio 2017\\Projects\\CodingSchoolPresentation\\MaliciousSite\\obj\\",
+      "outputPath": "C:\\Users\\dtsantakos\\Desktop\\gitfix\\codingschool\\MaliciousSite\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
