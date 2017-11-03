@@ -1,0 +1,12 @@
+C:\Users\dtsantakos\Documents\Visual Studio 2017\Projects\CodingSchoolPresentation\CodingSchoolPresentation\bin\Debug\netcoreapp2.0\CodingSchoolPresentation.deps.json
+C:\Users\dtsantakos\Documents\Visual Studio 2017\Projects\CodingSchoolPresentation\CodingSchoolPresentation\bin\Debug\netcoreapp2.0\CodingSchoolPresentation.runtimeconfig.json
+C:\Users\dtsantakos\Documents\Visual Studio 2017\Projects\CodingSchoolPresentation\CodingSchoolPresentation\bin\Debug\netcoreapp2.0\CodingSchoolPresentation.runtimeconfig.dev.json
+C:\Users\dtsantakos\Documents\Visual Studio 2017\Projects\CodingSchoolPresentation\CodingSchoolPresentation\bin\Debug\netcoreapp2.0\CodingSchoolPresentation.dll
+C:\Users\dtsantakos\Documents\Visual Studio 2017\Projects\CodingSchoolPresentation\CodingSchoolPresentation\bin\Debug\netcoreapp2.0\CodingSchoolPresentation.pdb
+C:\Users\dtsantakos\Documents\Visual Studio 2017\Projects\CodingSchoolPresentation\CodingSchoolPresentation\obj\Debug\netcoreapp2.0\CodingSchoolPresentation.csprojResolveAssemblyReference.cache
+C:\Users\dtsantakos\Documents\Visual Studio 2017\Projects\CodingSchoolPresentation\CodingSchoolPresentation\obj\Debug\netcoreapp2.0\CodingSchoolPresentation.csproj.CoreCompileInputs.cache
+C:\Users\dtsantakos\Documents\Visual Studio 2017\Projects\CodingSchoolPresentation\CodingSchoolPresentation\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\dtsantakos\Documents\Visual Studio 2017\Projects\CodingSchoolPresentation\CodingSchoolPresentation\obj\Debug\netcoreapp2.0\CodingSchoolPresentation.AssemblyInfoInputs.cache
+C:\Users\dtsantakos\Documents\Visual Studio 2017\Projects\CodingSchoolPresentation\CodingSchoolPresentation\obj\Debug\netcoreapp2.0\CodingSchoolPresentation.AssemblyInfo.cs
+C:\Users\dtsantakos\Documents\Visual Studio 2017\Projects\CodingSchoolPresentation\CodingSchoolPresentation\obj\Debug\netcoreapp2.0\CodingSchoolPresentation.dll
+C:\Users\dtsantakos\Documents\Visual Studio 2017\Projects\CodingSchoolPresentation\CodingSchoolPresentation\obj\Debug\netcoreapp2.0\CodingSchoolPresentation.pdb

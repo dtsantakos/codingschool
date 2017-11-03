@@ -1,0 +1,41 @@
+﻿@using MainSite.Data
+@model MainSite.Data.Transaction
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Transaction Details</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Amount)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Amount) &euro;
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Created)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Created)
+        </dd>
+        <dt>
+            From
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.User.UserName)
+        </dd>
+        <dt>
+            To
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Iban)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

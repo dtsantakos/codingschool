@@ -1,0 +1,49 @@
+﻿@using System.Data
+@using System.Linq;
+@{
+    ViewData["Title"] = "Transactions";
+}
+<h2>Transactions</h2>
+@Html.Partial("_Search")
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Amount</th>
+            <th>
+                Created
+            </th>
+            <th>
+                From
+            </th>
+            <th>
+                To
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (DataRow item in Model.Rows)
+        {
+            <tr>
+                <td>
+                    @item["Amount"] &euro;
+                </td>
+                <td>
+                    @item["Created"]
+                </td>
+                <td>
+                    @item["Username"]
+                </td>
+                <td>
+                    @item["Iban"]
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item["TransactionId"]">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<hr />
+<a asp-action="Create">Add New</a>

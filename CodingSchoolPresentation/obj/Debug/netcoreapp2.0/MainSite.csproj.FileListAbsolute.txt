@@ -1,0 +1,12 @@
+C:\Users\dtsantakos\Documents\Visual Studio 2017\Projects\CodingSchoolPresentation\CodingSchoolPresentation\obj\Debug\netcoreapp2.0\MainSite.csprojResolveAssemblyReference.cache
+C:\Users\dtsantakos\Documents\Visual Studio 2017\Projects\CodingSchoolPresentation\CodingSchoolPresentation\obj\Debug\netcoreapp2.0\MainSite.csproj.CoreCompileInputs.cache
+C:\Users\dtsantakos\Documents\Visual Studio 2017\Projects\CodingSchoolPresentation\CodingSchoolPresentation\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\dtsantakos\Documents\Visual Studio 2017\Projects\CodingSchoolPresentation\CodingSchoolPresentation\obj\Debug\netcoreapp2.0\MainSite.AssemblyInfoInputs.cache
+C:\Users\dtsantakos\Documents\Visual Studio 2017\Projects\CodingSchoolPresentation\CodingSchoolPresentation\obj\Debug\netcoreapp2.0\MainSite.AssemblyInfo.cs
+C:\Users\dtsantakos\Documents\Visual Studio 2017\Projects\CodingSchoolPresentation\CodingSchoolPresentation\bin\Debug\netcoreapp2.0\MainSite.deps.json
+C:\Users\dtsantakos\Documents\Visual Studio 2017\Projects\CodingSchoolPresentation\CodingSchoolPresentation\bin\Debug\netcoreapp2.0\MainSite.runtimeconfig.json
+C:\Users\dtsantakos\Documents\Visual Studio 2017\Projects\CodingSchoolPresentation\CodingSchoolPresentation\bin\Debug\netcoreapp2.0\MainSite.runtimeconfig.dev.json
+C:\Users\dtsantakos\Documents\Visual Studio 2017\Projects\CodingSchoolPresentation\CodingSchoolPresentation\bin\Debug\netcoreapp2.0\MainSite.dll
+C:\Users\dtsantakos\Documents\Visual Studio 2017\Projects\CodingSchoolPresentation\CodingSchoolPresentation\bin\Debug\netcoreapp2.0\MainSite.pdb
+C:\Users\dtsantakos\Documents\Visual Studio 2017\Projects\CodingSchoolPresentation\CodingSchoolPresentation\obj\Debug\netcoreapp2.0\MainSite.dll
+C:\Users\dtsantakos\Documents\Visual Studio 2017\Projects\CodingSchoolPresentation\CodingSchoolPresentation\obj\Debug\netcoreapp2.0\MainSite.pdb

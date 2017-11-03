@@ -1,0 +1,85 @@
+﻿@model MainSite.Models.CiphersViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+<h2>Encryption & Hashing</h2>
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <form method="post">
+            <fieldset class="form-group">
+                <legend>Encryption</legend>
+                <div class="row">
+                    <div class="form-group col-xs-6">
+                        <label asp-for="PlainTextInput" class="control-label">Plain Text Input</label>
+                        <textarea name="PlainTextInput" class="form-control">@Model.PlainTextInput</textarea>
+                    </div>
+                    <div class="form-group col-xs-6">
+                        <label asp-for="EncryptedOutput" class="control-label">Encrypted Output</label>
+                        <textarea name="EncryptedOutput" class="form-control">@Model.EncryptedOutput</textarea>
+                    </div>
+                </div>
+                <input type="submit" asp-action="Encrypt" value="Encrypt" class="btn btn-default" />
+            </fieldset>
+            <fieldset class="form-group">
+                <legend>Decryption</legend>
+                <div class="row">
+                    <div class="form-group col-xs-6">
+                        <label asp-for="EncryptedInput" class="control-label">Encrypted Input</label>
+                        <textarea name="EncryptedInput" class="form-control">@Model.EncryptedInput</textarea>
+                    </div>
+                    <div class="form-group col-xs-6">
+                        <label asp-for="DecryptedOutput" class="control-label">Decrypted Output</label>
+                        <textarea name="DecryptedOutput" class="form-control">@Model.DecryptedOutput</textarea>
+                    </div>
+                </div>
+                <input type="submit" asp-action="Decrypt" value="Decrypt" class="btn btn-default" />
+            </fieldset>
+
+            <fieldset class="form-group">
+                <legend>Hashing</legend>
+                <div class="row">
+                    <div class="form-group col-xs-6">
+                        <label asp-for="PlainTextPasswordInput" class="control-label">Plain Text Password Input</label>
+                        <textarea name="PlainTextPasswordInput" class="form-control">@Model.PlainTextPasswordInput</textarea>
+                    </div>
+                    <div class="form-group col-xs-6">
+                        <label asp-for="HashedPasswordOutput" class="control-label">Hashed Password Output</label>
+                        <textarea name="HashedPasswordOutput" class="form-control">@Model.HashedPasswordOutput</textarea>
+                    </div>
+                </div>
+                <input type="submit" asp-action="ComputeHash" value="Compute Hash" class="btn btn-default" />
+            </fieldset>
+
+
+            <fieldset class="form-group">
+                <legend>Hashing Verification</legend>
+                <div class="row">
+                    <div class="form-group col-xs-6">
+                        <label asp-for="HashedPasswordInput" class="control-label">Hashed Password Input</label>
+                        <textarea name="HashedPasswordInput" class="form-control">@Model.HashedPasswordInput</textarea>
+                    </div>
+                    <div class="form-group col-xs-6">
+                        <label asp-for="VerifyPasswordInput" class="control-label">Verify Password Input</label>
+                        <textarea name="VerifyPasswordInput" class="form-control">@Model.VerifyPasswordInput</textarea>
+                    </div>
+                    @if (Model.VerificationResult.HasValue)
+                    {
+                        <div class="form-group col-xs-12">
+                            <label asp-for="VerificationResult" class="control-label">Password & Hash Verified</label>
+                            <input type="text" name="VerificationResult" class="form-control" value="@(Model.VerificationResult.Value? "YES :)"  : "NO :(" )" />
+                        </div>    
+                    }
+                    
+                </div>
+                <input type="submit" asp-action="VerifyHash" value="Verify Hash" class="btn btn-default" />
+            </fieldset>
+
+            
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

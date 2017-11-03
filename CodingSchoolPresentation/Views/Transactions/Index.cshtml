@@ -1,0 +1,55 @@
+﻿@using MainSite.Data
+@model IEnumerable<MainSite.Data.Transaction>
+@{
+    ViewData["Title"] = "Transactions";
+}
+<h2>Transactions</h2>
+
+
+@Html.Partial("_Search")
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Amount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Created)
+            </th>
+            <th>
+                From
+            </th>
+            <th>
+                To
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Amount)  &euro;
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Created)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.User.UserName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Iban)
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.TransactionId">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<hr />
+<a asp-action="Create">Add New</a>
