@@ -36,6 +36,16 @@ namespace MainSite
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
 
+            //OWASP #2 Broken Authentication
+            services.Configure<IdentityOptions>(options =>
+            {
+                options.Password.RequiredLength = 6;
+                options.Password.RequireLowercase = true;
+                options.Password.RequireDigit = false;
+                options.Password.RequireNonAlphanumeric = false;
+                options.Password.RequireUppercase = false;
+            });
+
             services.AddTransient<IEmailSender, EmailSender>();
 
             //OWASP #6 Sensitive data exposure
